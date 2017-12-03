@@ -112,6 +112,7 @@ def create_tsconfig(ctx, files, srcs,
       # We think this shouldn't be necessary but haven't figured out why yet
       # and builds are faster with the setting on.
       "skipDefaultLibCheck": True,
+      "skipLibCheck": True,
 
       "moduleResolution": "node",
 
